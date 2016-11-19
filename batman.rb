@@ -8,6 +8,7 @@ class Batman < Formula
   def install
     inreplace "brew/batman", "##INSTALLDIR##", "#{prefix}"
     prefix.install "batman.jar"
+    prefix.install "sdk-config.xml"
     bin.install "brew/batman"
   end
 end
