@@ -2,8 +2,8 @@ require "formula"
 
 class Batman < Formula
   homepage "http://www.tp-link.com/us/"
-  url "https://s3-us-west-2.amazonaws.com/tpra-app/batman/batman-0.1.3.tar.gz"
-  sha256 "8478588f90671cee5f1076280ea3bc063138e7cb23cc954dda39fc6de845a875"
+  url "https://s3-us-west-2.amazonaws.com/tpra-app/batman/batman-0.1.4.tar.gz"
+  sha256 "6e501f042b4b6df25993aac3185ddb0589c6c828607101b6a2e900d2b12b0d98"
 
   def install
     inreplace "brew/bin/batman", "##INSTALLDIR##", "#{prefix}"
