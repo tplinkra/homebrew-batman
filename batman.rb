@@ -13,3 +13,5 @@ class Batman < Formula
     bin.install "brew/bin/batmanlog"
   end
 end
+
+
