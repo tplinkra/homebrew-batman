@@ -2,8 +2,8 @@ require "formula"
 
 class Bootstrap < Formula
   homepage "http://www.tp-link.com/us/"
-  url "https://s3-us-west-2.amazonaws.com/tpra-app/bootstrap/bootstrap-0.0.4.tar.gz"
-  sha256 "a7bca33311af4566371c3c1933379be9a4e870b2c0b7c9dab6891d727e32f5ec"
+  url "https://s3-us-west-2.amazonaws.com/tpra-app/bootstrap/bootstrap-0.0.5.tar.gz"
+  sha256 "1038b3e5ca980c45e08c58e1ab0aeb6be98d632848a51ec6205d736062c76132"
 
   def install
     bin.install "brew/bin/dev"
