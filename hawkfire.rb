@@ -3,8 +3,8 @@ require "formula"
 class Hawkfire < Formula
   desc "Hawkfire - Superhero Utility for Kubernetes Project"
   homepage "https://www.kasasmart.com/"
-  url "https://s3-us-west-2.amazonaws.com/tpra-app/hawkfire/hawkfire-1.0.3.tar.gz"
-  sha256 "e05404031b5e31890fd1e12a4e6de4881204aecc3447abd5cd5bfb939dec4111"
+  url "https://s3-us-west-2.amazonaws.com/tpra-app/hawkfire/hawkfire-1.0.4.tar.gz"
+  sha256 "b311afb8919a41b71d64b146dfed6e2a61e4ad5df7d1873f92f30cde8338ee6b"
 
   depends_on "node"
   depends_on "yarn"
