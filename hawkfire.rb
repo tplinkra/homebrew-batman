@@ -1,13 +1,14 @@
 require "formula"
 
 class Hawkfire < Formula
-  desc "Hawkfire - Superhero Utility for Kubernetes Project"
+  desc "Hawkfire - Superhero Utility for Kubernetes Miroservice"
   homepage "https://www.kasasmart.com/"
-  url "https://s3-us-west-2.amazonaws.com/tpra-app/hawkfire/hawkfire-1.0.20.tar.gz"
-  sha256 "f142d33ecb1157856228ea14b216065a6f2e71967cabc9a00e4f05ed78aa634c"
+  url "https://s3-us-west-2.amazonaws.com/tpra-app/hawkfire/hawkfire-1.0.21.tar.gz"
+  sha256 "b5c991d9e8d62d4e972a3dacb58b4b02ce018c877e89cc0f72c11b43d5c55480"
 
   depends_on "node"
   depends_on "yarn"
+  depends_on "gnu-sed"
   depends_on "python-yq"
 
   def install
