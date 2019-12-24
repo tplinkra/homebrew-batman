@@ -3,13 +3,13 @@ require "formula"
 class Hawkfire < Formula
   desc "Hawkfire - Superhero Utility for Kubernetes Miroservice"
   homepage "https://www.kasasmart.com/"
-  url "https://s3-us-west-2.amazonaws.com/tpra-app/hawkfire/hawkfire-1.0.22.tar.gz"
-  sha256 "3fd018305254a56d6dd55fc809e59d841121c939dbc4e7a36d418d2b3f86ef55"
+  url "https://s3-us-west-2.amazonaws.com/tpra-app/hawkfire/hawkfire-1.0.23.tar.gz"
+  sha256 "93203160ea9bc225dbf6249c93633ea6ded5469b4c9a1e61c148a8939bfe9a8b"
 
   depends_on "node"
   depends_on "yarn"
   depends_on "gnu-sed"
-  depends_on "python-yq"
+  depends_on "yq"
 
   def install
     system "yarn", "install"
